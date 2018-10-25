@@ -4,7 +4,7 @@
 
 body {
     margin: 0 auto;
-    font-family: "Geometria";
+    font-family: "Roboto";
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -18,7 +18,7 @@ ul {
 }
 
 .container {
-    width: 1010px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
