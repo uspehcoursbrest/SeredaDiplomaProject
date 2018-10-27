@@ -22,3 +22,633 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+body{
+    background: slateblue;
+}
+
+
+.hotline ul a{
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.hotline ul a.purple{
+    color: #b998ef;
+}
+
+.hotline button{
+    font-size: 14px;
+    line-height: 54px;
+    text-align: center;
+    color: #49d5fe;
+    background-color: rgba(255, 255, 255, 0);
+    width: 190px;
+    height: 35px;
+}
+
+.banner button{
+    font-size: 18px;
+    line-height: 54px;
+    color: #4cc4f4;
+    height: 50px;
+    width: 260px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.lines .container p{
+    font-size: 17px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.lines .container p span{
+    font-size: 21px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+
+.tesst{
+    background-color: #1f2847;
+    width: 265px;
+    height: 140px;
+}
+
+.tesst h2{
+    font-size: 17px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.tesst h2.sky{
+    color: #4fceff;
+}
+
+.tesst h2.blur{
+    color: #858eff;
+}
+
+.tesst h2.blue{
+    color: #6e87fa;
+}
+.tesst h2.purp{
+    color: #af82f6;
+}
+.test{
+    width: 265px;
+    height: 540px;
+}
+
+.test ul li span{
+    font-size: 15px;
+    line-height: 48px;
+    color: #1f2847;
+}
+
+.test span.procent{
+    font-size: 45px;
+    line-height: 24px;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.test span.day{
+    font-size: 15px;
+    line-height: 24px;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.test ul li.wight{
+    background-color: #ffffff;
+    height: 45px;
+}
+
+.test ul li.grey{
+    background-color: #f0f4f7;
+    height: 45px;
+}
+
+.test ul li span{
+    text-align: center;
+}
+
+.test .b{
+    background-color: #ffffff;
+}
+.test .b button{
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.test span.blue{
+    color: #5a6fcf;
+}
+
+.test span.blur{
+    color: #6a86f1;
+}
+
+.test span.purp{
+    color: #a773f7;
+}
+
+.test span.sky{
+    color: #33c1f7;
+}
+
+form option{
+    font-size: 17px;
+    line-height: 48px;
+    color: #17203f;
+}
+
+.dohod h1{
+    font-size: 37px;
+    line-height: 54px;
+    color: #f0f4f7;
+}
+
+.dohod div span{
+    font-size: 14px;
+    line-height: 54px;
+    color: #f0f4f7;
+}
+
+form.FormOne label{
+    font-size: 17px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+form.FormOne select{
+    width: 270px;
+    height: 45px;
+    background-color: #ffffff;
+}
+
+form.FormTwo input{
+    background-color: #2f3753;
+    width: 510px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+form.FormTwo label{
+    font-size: 17px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+ button.down{
+    background-color: rgba(255, 255, 255, 0);
+     width: 475px;
+     height: 75px;
+     color: #ffffff;
+}
+
+ button.down span{
+     color: #ffffff;
+     font-size: 21px;
+     line-height: 54px;
+     text-align: center;
+ }
+
+ .incubator h2{
+     font-size: 33px;
+     line-height: 54px;
+     color: #1f2847;
+ }
+ 
+ .incubator span{
+     font-size: 14px;
+     line-height: 54px;
+     color: #1f2847;
+ }
+ 
+ .incubator p{
+     font-size: 17px;
+     line-height: 30px;
+     color: #1f2847;
+ }
+ 
+ .incubator p span{
+     font-weight: bold;
+ } 
+
+ .bonus h2{
+     font-size: 33px;
+     line-height: 30px;
+     color: #1f2847;
+ }
+
+ .bonus span.pika{
+     font-size: 14px;
+     line-height: 30px;
+     color: #1f2847;
+ }
+
+ .bonus p.pa{
+     font-size: 17px;
+     line-height: 48px;
+     color: #1f2847;
+ }
+
+.bonus div p{
+    font-size: 21px;
+    line-height: 27px;
+    color: #1f2847;
+}
+
+.bonus span{
+    font-size: 15px;
+    line-height: 24px;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.partner h2{
+    font-size: 33px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.partner .one{
+    width: 565px;
+    height: 100px;
+    background-color: rgba(54, 104, 156, 0.7);
+}
+
+.partner .two{
+    width: 565px;
+    height: 100px;
+    background-color: rgba(54, 104, 156, 0.7);
+}
+
+.partner .tri{
+    width: 565px;
+    height: 100px;
+    background-color: rgba(54, 104, 156, 0.7);
+}
+
+.partner .one p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.partner .two p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.partner .tri p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.partner .one p span{
+    font-size: 33px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.partner .two p span{
+    font-size: 33px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.partner .tri p span{
+    font-size: 33px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.partner button{
+    width: 475px;
+    height: 75px;
+    background-color: rgba(222, 222, 222, 0);
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+    text-align: center;
+}
+.partner button span{
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.news h2{
+    font-size: 33px;
+    line-height: 30px;
+    color: #1f2847;
+}
+
+.news span.last{
+    font-size: 14px;
+    line-height: 30px;
+    color: #1f2847;
+}
+
+.news span{
+    font-size: 13px;
+    line-height: 24px;
+    color: #9b9fad;
+}
+
+.beskonechnost p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.beskonechnost p a{
+    font-size: 13px;
+    line-height: 20px;
+    color: #49d5fe;
+    text-decoration: none;
+}
+
+.news span.bbi{
+    font-size: 13px;
+    line-height: 24px;
+    color: #b4c1d2;
+}
+
+.news h6{
+    font-size: 15px;
+    line-height: 27px;
+    color: #1f2847;
+}
+
+.news h6.h{
+    font-size: 15px;
+    line-height: 27px;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.news p.now{
+    font-size: 15px;
+    line-height: 20px;
+    color: #6e7383;
+}
+
+.news p.now a{
+    font-size: 13px;
+    line-height: 20px;
+    color: #29baf2;
+    text-decoration: none;
+}
+
+.news button{
+    width: 190px;
+    height: 50px;
+    background: rgba(222, 222, 222, 0);
+    border: none;
+    font-size: 16px;
+    line-height: 54px;
+    color: #4cc4f4;
+}
+
+.menu button{
+    width: 460px;
+    height: 80px;
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+    background-color: rgba(222, 222, 222, 0);
+    text-align: center;
+}
+.menu button span.icon{
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+p.q{
+    font-size: 15px;
+    line-height: 25px;
+    color: #bbc0d2;
+}
+
+.address span{
+    font-size: 14px;
+    line-height: 25px;
+    color: #6981f1;
+}
+
+a.poh{
+    font-size: 15px;
+    line-height: 22px;
+    color: #bbc0d2;
+}
+
+span.od{
+    font-size: 14px;
+    line-height: 22px;
+    color: #b998ef;
+}
+span.odd {
+    font-size: 14px;
+    line-height: 22px;
+    color: #49d5fe;
+}
+
+span.pul{
+    font-size: 14px;
+    line-height: 22px;
+    color: #b998ef;
+ }
+
+.chat span.puul{
+    font-size: 14px;
+    line-height: 22px;
+    color: #49d5fe;
+}
+
+.downline li a{
+    font-size: 14px;
+    line-height: 17px;
+    color: #bbc0d2;
+}
+
+a.g{
+    font-size: 14px;
+    line-height: 17px;
+    color: #b998ef;
+}
+
+.marketing h1{
+    font-size: 31px;
+    line-height: 54px;
+    color: #1f2847;
+}
+
+.marketing p span{
+    font-size: 17px;
+    line-height: 30px;
+    color: #1f2847;
+    font-weight: bold;
+}
+
+.marketing p{
+    font-size: 17px;
+    line-height: 30px;
+    color: #1f2847;
+}
+
+.line span{
+    font-size: 21px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+span.bol{
+    font-size: 21px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.cards1{
+    height: 640px;
+    width: 270px;
+}
+
+.cards2{
+    height: 640px;
+    width: 270px;
+}
+
+.cards3{
+    height: 640px;
+    width: 270px;
+}
+
+.cards4{
+    height: 640px;
+    width: 270px;
+}
+
+.testz{
+    background-color: #1f2847;
+    height: 140px;
+}
+
+.testzz{
+    background-color: #1f2847;
+    height: 140px;
+}
+
+.testzzz{
+    background-color: #1f2847;
+    height: 140px;
+}
+
+.testzzzz{
+    background-color: #1f2847;
+    height: 140px;
+}
+
+.testz h2{
+    font-size: 17px;
+    line-height: 54px;
+    color: #6e87fa;
+    text-align: center;
+}
+
+.testzz h2{
+    font-size: 17px;
+    line-height: 54px;
+    color: #858eff;
+    text-align: center;
+}
+
+.testzzz h2{
+    font-size: 17px;
+    line-height: 54px;
+    color: #af82f6;
+    text-align: center;
+}
+
+.testzzzz h2{
+    font-size: 17px;
+    line-height: 54px;
+    color: #4fceff;
+    text-align: center;
+}
+
+.multi{
+    background-color: #ffffff;
+}
+
+.multi span{
+    font-weight: bold;
+}
+
+.cards1 button{
+    background-color: #637ae2;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+.cards2 button{
+    background-color: #858eff;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+.cards3 button{
+    background-color: #af82f6;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+}
+
+.cards4 button{
+    background-color: #4fceff;
+    border: none;
+    width: 230px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    text-align: center;
+}
+
