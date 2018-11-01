@@ -23,15 +23,34 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 body{
     background: slateblue;
 }
 
+.hotline{
+    width: 100%;
+    float: left;
+}
+
+.hotline a.imgg{
+    float: left;
+}
+
+.hotline .langvich{
+    float: right;
+}
 
 .hotline ul a{
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .hotline ul a.purple{
@@ -40,7 +59,7 @@ body{
 
 .hotline button{
     font-size: 14px;
-    line-height: 54px;
+    line-height: 35px;
     text-align: center;
     color: #49d5fe;
     background-color: rgba(255, 255, 255, 0);
@@ -182,6 +201,18 @@ form option{
     color: #f0f4f7;
 }
 
+.dohod button span{
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
+.dohod button{
+    font-size: 21px;
+    line-height: 54px;
+    color: #ffffff;
+}
+
 form.FormOne label{
     font-size: 17px;
     line-height: 48px;
@@ -243,18 +274,53 @@ form.FormTwo label{
  
  .incubator p span{
      font-weight: bold;
- } 
+     font-size: 17px;
+     line-height: 30px;
+     color: #1f2847;
+
+ }
+
+ .incubator ul.clear{
+     width: 100%;
+     float: left;
+ }
+
+ .incubator ul.clear li{
+     width: 33.3333%;
+     float: left;
+ }
+
+ .incubator ul li img{
+     float: right;
+ }
 
  .bonus h2{
      font-size: 33px;
      line-height: 30px;
      color: #1f2847;
+     text-align: center;
  }
+
+.adv{
+    width: 100%;
+    float: left;
+}
+
+/*.yn, .part, .nach, .kval, .enter, .vozm{*/
+    /*display: block;*/
+/*}*/
+
+.adv .ri, .phon, .le{
+    width: 33.333333%;
+    float: left;
+}
 
  .bonus span.pika{
      font-size: 14px;
      line-height: 30px;
      color: #1f2847;
+     display: block;
+     text-align: center;
  }
 
  .bonus p.pa{
@@ -267,6 +333,8 @@ form.FormTwo label{
     font-size: 21px;
     line-height: 27px;
     color: #1f2847;
+    font-weight: bold;
+    text-align: center;
 }
 
 .bonus span{
@@ -347,7 +415,6 @@ form.FormTwo label{
     color: #ffffff;
     font-size: 21px;
     line-height: 54px;
-    color: #ffffff;
     text-align: center;
 }
 .partner button span{
@@ -360,18 +427,50 @@ form.FormTwo label{
     font-size: 33px;
     line-height: 30px;
     color: #1f2847;
+    text-align: center;
 }
 
 .news span.last{
     font-size: 14px;
     line-height: 30px;
     color: #1f2847;
+    text-align: center;
+}
+
+.news{
+    width: 100%;
+    float: left;
+}
+
+.news .beskonechnost, .BotBbi{
+    width: 50%;
+    float: left;
+}
+
+.news .img{
+    width: 570px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.news .m+.m{
+    margin-top: 25px;
 }
 
 .news span{
     font-size: 13px;
     line-height: 24px;
     color: #9b9fad;
+}
+
+.news button{
+    font-size: 16px;
+    line-height: 50px;
+    color: #4cc4f4;
+    width: 190px;
+    height: 50px;
 }
 
 .beskonechnost p{
@@ -429,7 +528,7 @@ form.FormTwo label{
     color: #4cc4f4;
 }
 
-.menu button{
+.button button{
     width: 460px;
     height: 80px;
     font-size: 21px;
@@ -438,7 +537,7 @@ form.FormTwo label{
     background-color: rgba(222, 222, 222, 0);
     text-align: center;
 }
-.menu button span.icon{
+.button button span.icon{
     font-size: 21px;
     line-height: 54px;
     color: #ffffff;
@@ -493,6 +592,10 @@ span.pul{
     font-size: 14px;
     line-height: 17px;
     color: #bbc0d2;
+}
+
+.downline{
+    position: center;
 }
 
 a.g{
@@ -650,5 +753,100 @@ span.bol{
     line-height: 54px;
     color: #ffffff;
     text-align: center;
+}
+
+.downline li{
+    display: inline-block;
+}
+
+.downline li+li{
+    margin-left: 50px;
+}
+
+.menu .cop, .address, .social, .chat{
+    display: inline-block;
+}
+
+.menu .address{
+    margin-left: 120px;
+}
+
+.menu .social{
+    margin-left: 70px;
+}
+
+.menu .chat{
+    margin-left: 100px;
+}
+
+.payer li{
+    display: inline-block;
+}
+
+.payer li+li{
+    margin-left: 30px;
+}
+
+.adv .test{
+    display: inline-block;
+}
+
+.adv .test+.test{
+    margin-left: 30px;
+}
+
+.lines{
+    width: 100%;
+    float: left;
+}
+
+.lines .poi{
+    width: 33.33333%;
+    float: left;
+}
+
+.lines div:last-child{
+    background-color: #4fceff;
+}
+
+.lines div:nth-child(2){
+    background-color: #af82f6;
+}
+
+.lines div:first-child{
+    background-color: #677fed;
+}
+
+.marketing{
+    width: 100%;
+    float: left;
+}
+
+.marketing li{
+    width: 50%;
+    float: left;
+}
+
+.line{
+    width: 100%;
+    float: left;
+}
+
+.line .tabs li{
+    width: 33.3333%;
+    float: left;
+}
+
+.qwe{
+    margin: 0 -15px;
+}
+
+.cards1, .cards2, .cards3, .cards4{
+    width: 25%;
+    float: left;
+}
+
+.bot [class*="card"] .in {
+    padding: 0 15px;
 }
 
