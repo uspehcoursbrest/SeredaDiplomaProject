@@ -5,7 +5,9 @@
 body {
     margin: 0 auto;
     font-family: "Roboto";
+    background-color: #123456;
 }
+
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -29,10 +31,6 @@ ul {
     clear: both;
 }
 
-body{
-    background: slateblue;
-}
-
 .hotline{
     width: 100%;
     float: left;
@@ -54,6 +52,11 @@ body{
     text-decoration: none;
 }
 
+.hotline ul a:hover{
+    color: #123123;
+    transition: all 0.3s;
+}
+
 .hotline ul a.purple{
     color: #b998ef;
 }
@@ -66,6 +69,11 @@ body{
     background-color: rgba(255, 255, 255, 0);
     width: 190px;
     height: 35px;
+}
+
+.hotline button:hover{
+    font-size: 16px;
+    transition: all 0.3s;
 }
 
 .banner button{
@@ -89,7 +97,32 @@ body{
     text-align: center;
 }
 
-.lines .container p{
+.banner button:hover{
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.tri3{
+    background-image: url(../img/jpg/fonheader.jpg);
+    height: 1040px;
+    background-repeat: no-repeat;
+}
+
+.lines{
+    height: 128px;
+    margin-top: 285px;
+}
+
+.banner{
+    height: 790px;
+}
+
+.hotline{
+    height: 115px;
+    margin-top: 50px;
+}
+
+.lines p{
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
@@ -97,11 +130,16 @@ body{
     padding-top: 40px;
 }
 
-.lines .container p span{
+.lines p span{
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
 }
+
+.cards{
+     background-color: #f0f4f7;
+     height: 800px;
+ }
 
 
 .tesst{
@@ -133,6 +171,8 @@ body{
 .test{
     width: 265px;
     height: 540px;
+    margin-top: 135px;
+    box-shadow: 2px 2px 1px 1px rgba(207, 215, 221, 1);
 }
 
 .test img{
@@ -179,11 +219,12 @@ body{
     text-align: center;
 }
 
-.test .b{
+.test .b1, .b2, .b3, .b4{
     background-color: #ffffff;
     padding: 17px;
+    height: 130px;
 }
-.test .b button{
+.test .b1 button{
     height: 50px;
     width: 230px;
     text-align: center;
@@ -191,7 +232,62 @@ body{
     line-height: 54px;
     color: #ffffff;
     border: none;
+    margin-top: 50px;
+    background-color: #637ae2;
 }
+
+.test .b2 button{
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+    background-color: #858eff;
+}
+.test .b3 button{
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+    background-color: #af82f6;
+}
+.test .b4 button{
+    height: 50px;
+    width: 230px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 54px;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+    background-color: #4fceff;
+}
+
+.test .b1 button:hover{
+    background-color: #F4A460;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+.test .b2 button:hover{
+    background-color: #F4A460;
+    font-size: 18px;
+    transition: all 0.3s;
+}.test .b3 button:hover{
+     background-color: #F4A460;
+     font-size: 18px;
+     transition: all 0.3s;
+ }.test .b4 button:hover{
+      background-color: #F4A460;
+      font-size: 18px;
+      transition: all 0.3s;
+  }
 
 .test span.blue{
     color: #5a6fcf;
@@ -215,13 +311,18 @@ form option{
     color: #17203f;
 }
 
-/*.dohod {*/
-    /*background-image: url(../img/jpg/foncontent.jpg);*/
-    /*height: 665px;*/
-    /*width: 1920px;*/
-    /*background-position: left;*/
-    /*background-repeat: no-repeat;*/
-/*}*/
+.dohod {
+    background-image: url(../img/jpg/foncontent.jpg);
+    height: 665px;
+    background-position: -292px;
+    background-repeat: no-repeat;
+
+}
+
+.dohod .nik{
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
 
 .dohod h1{
     font-size: 37px;
@@ -249,11 +350,24 @@ form option{
     color: #ffffff;
 }
 
+.dohod button:hover{
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
 form.FormOne label{
     font-size: 17px;
     line-height: 48px;
     color: #ffffff;
     display: block;
+}
+
+.FormOne option{
+    font-weight: 600;
+}
+
+.FormOne select{
+    font-weight: 600;
 }
 
 .FormOne li{
@@ -266,6 +380,11 @@ form.FormOne select{
     width: 270px;
     height: 45px;
     background-color: #ffffff;
+}
+
+.FormTwo{
+    margin-top: 134px;
+    margin-left: 25px;
 }
 
 form.FormTwo input{
@@ -282,6 +401,7 @@ form.FormTwo label{
     line-height: 48px;
     color: #ffffff;
     display: block;
+    margin-left: 192px;
 }
 
  button.down{
@@ -290,6 +410,8 @@ form.FormTwo label{
      height: 75px;
      color: #ffffff;
      float: right;
+     margin-top: 68px;
+     margin-left: 0;
 }
 
  button.down span{
@@ -393,6 +515,14 @@ form.FormTwo label{
     font-weight: bold;
 }
 
+.partner{
+    background-image: url(../img/jpg/foncontent2.jpg);
+    height: 800px;
+    background-position-y: -407px;
+    background-position-x: -286px;
+    background-repeat: no-repeat;
+}
+
 .partner h2{
     font-size: 33px;
     line-height: 30px;
@@ -482,6 +612,12 @@ form.FormTwo label{
     display: block;
     text-align: center;
 }
+
+.partner button:hover{
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
 .partner button span{
     font-size: 21px;
     line-height: 54px;
@@ -543,6 +679,11 @@ form.FormTwo label{
     height: 50px;
 }
 
+.news button:hover{
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
 .beskonechnost p{
     font-size: 17px;
     line-height: 27px;
@@ -554,6 +695,10 @@ form.FormTwo label{
     line-height: 20px;
     color: #49d5fe;
     text-decoration: none;
+}
+
+.beskonechnost p a:hover{
+    color: #123123;
 }
 
 .news span.bbi{
@@ -588,6 +733,10 @@ form.FormTwo label{
     text-decoration: none;
 }
 
+.news p.now a:hover{
+    color: #123123;
+}
+
 .news button{
     width: 190px;
     height: 50px;
@@ -608,6 +757,12 @@ form.FormTwo label{
     text-align: center;
     margin-left: 355px;
 }
+
+.button button:hover{
+    font-size: 23px;
+    transition: all 0.3s;
+}
+
 .button button span.icon{
     font-size: 21px;
     line-height: 54px;
@@ -617,6 +772,7 @@ form.FormTwo label{
 footer a{
     text-decoration: none;
 }
+
 
 p.q{
     font-size: 15px;
@@ -827,8 +983,17 @@ span.bol{
     text-align: center;
 }
 
+.downline{
+    float: bottom;
+}
+
 .downline li{
     display: inline-block;
+}
+
+.downline li a:hover{
+    color: #123123;
+    transition: all 0.3s;
 }
 
 .downline li+li{
@@ -837,6 +1002,18 @@ span.bol{
 
 .menu .cop, .address, .social, .chat{
     display: inline-block;
+}
+
+.menu .social a:hover{
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.menu .chat a:hover{
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
 }
 
 .menu .address{
@@ -866,6 +1043,13 @@ span.bol{
 /*.payer li:first-child{*/
     /*margin-left: ;*/
 /*}*/
+
+footer{
+    background-image: url(../img/jpg/fonfooter.jpg);
+    height: 925px;
+    background-position: -292px;
+    background-repeat: no-repeat;
+}
 
 .adv .test{
     display: inline-block;
@@ -930,4 +1114,12 @@ span.bol{
 .bot [class*="card"] .in {
     padding: 0 15px;
 }
+
+.qwe img{
+    padding-top: 19px;
+    padding-left: 99px;
+}
+
+
+
 
