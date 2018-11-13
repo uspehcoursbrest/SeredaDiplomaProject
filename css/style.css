@@ -8,6 +8,11 @@ body {
     background-color: #123456;
 }
 
+body{
+    min-height: 1200px;
+    max-width: 1920px;
+}
+
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -31,9 +36,24 @@ ul {
     clear: both;
 }
 
+header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hotline img{
+    position: relative;
+    top: -40px;
+}
+
 .hotline{
     width: 100%;
     float: left;
+}
+
+.hotline ul{
+    margin-top: 30px;
 }
 
 .hotline ul li{
@@ -90,11 +110,13 @@ ul {
 .banner a{
     display: block;
     text-align: center;
+    padding-top: 314px;
 }
 
 .banner button{
     display: block;
     text-align: center;
+    margin-top: 77px;
 }
 
 .banner button:hover{
@@ -102,15 +124,15 @@ ul {
     transition: all 0.3s;
 }
 
-.tri3{
-    background-image: url(../img/jpg/fonheader.jpg);
-    height: 1040px;
-    background-repeat: no-repeat;
-}
+/*.tri3{*/
+    /*background-image: url(../img/jpg/fonheader.jpg);*/
+    /*height: 1040px;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
 
 .lines{
     height: 128px;
-    margin-top: 285px;
+    margin-top: 267px;
 }
 
 .banner{
@@ -222,9 +244,10 @@ ul {
 .test .b1, .b2, .b3, .b4{
     background-color: #ffffff;
     padding: 17px;
-    height: 130px;
+    height: 80px;
 }
 .test .b1 button{
+    display: block;
     height: 50px;
     width: 230px;
     text-align: center;
@@ -275,19 +298,24 @@ ul {
     font-size: 18px;
     transition: all 0.3s;
 }
+
 .test .b2 button:hover{
     background-color: #F4A460;
     font-size: 18px;
     transition: all 0.3s;
-}.test .b3 button:hover{
-     background-color: #F4A460;
-     font-size: 18px;
-     transition: all 0.3s;
- }.test .b4 button:hover{
-      background-color: #F4A460;
-      font-size: 18px;
-      transition: all 0.3s;
-  }
+}
+
+.test .b3 button:hover{
+    background-color: #F4A460;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.test .b4 button:hover{
+    background-color: #F4A460;
+    font-size: 18px;
+    transition: all 0.3s;
+}
 
 .test span.blue{
     color: #5a6fcf;
@@ -313,22 +341,19 @@ form option{
 
 .dohod {
     background-image: url(../img/jpg/foncontent.jpg);
-    height: 665px;
-    background-position: -292px;
+    height: 670px;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 
-}
 
-.dohod .nik{
-    margin-top: 55px;
-    margin-bottom: 30px;
 }
 
 .dohod h1{
     font-size: 37px;
     line-height: 54px;
     color: #f0f4f7;
-    padding: 0;
+    padding-top: 95px;
 }
 
 
@@ -383,8 +408,8 @@ form.FormOne select{
 }
 
 .FormTwo{
-    margin-top: 134px;
-    margin-left: 25px;
+    margin-top: 34px;
+    margin-left: 31px;
 }
 
 form.FormTwo input{
@@ -421,6 +446,11 @@ form.FormTwo label{
      text-align: center;
  }
 
+ .incubator{
+     height: 745px;
+     background-color: #ffffff;
+ }
+
  .incubator h2{
      font-size: 33px;
      line-height: 54px;
@@ -431,6 +461,7 @@ form.FormTwo label{
      font-size: 14px;
      line-height: 54px;
      color: #1f2847;
+     font-weight: bold;
  }
  
  .incubator p{
@@ -440,7 +471,7 @@ form.FormTwo label{
  }
 
  .incubator p.two{
-     padding-left: 55px;
+     padding-left: 48px;
  }
 
  .incubator p span{
@@ -465,11 +496,21 @@ form.FormTwo label{
      float: right;
  }
 
+ .ter{
+     padding-top: 150px;
+ }
+
  .bonus h2{
      font-size: 33px;
      line-height: 30px;
      color: #1f2847;
      text-align: center;
+     padding-top: 155px;
+ }
+ 
+ .bonus{
+     background-color: #f0f4f7;
+     height: 1170px;
  }
 
 .adv{
@@ -484,6 +525,7 @@ form.FormTwo label{
 .adv .ri, .phon, .le{
     width: 33.333333%;
     float: left;
+    margin-top: 100px;
 }
 
  .bonus span.pika{
@@ -496,16 +538,19 @@ form.FormTwo label{
 
  .bonus p.pa{
      font-size: 17px;
-     line-height: 48px;
+     line-height: 35px;
      color: #1f2847;
+     text-align: center;
+     margin-top: 16px;
  }
 
-.bonus div p{
+.bonus .plm p{
     font-size: 21px;
     line-height: 27px;
     color: #1f2847;
     font-weight: bold;
     text-align: center;
+    margin-top: 80px;
 }
 
 .bonus span{
@@ -518,16 +563,15 @@ form.FormTwo label{
 .partner{
     background-image: url(../img/jpg/foncontent2.jpg);
     height: 800px;
-    background-position-y: -407px;
+    background-position-y: -289px;
     background-position-x: -286px;
-    background-repeat: no-repeat;
 }
 
 .partner h2{
     font-size: 33px;
     line-height: 30px;
     color: #ffffff;
-    padding: 55px;
+    padding: 130px 55px 70px 55px;
 }
 
 .partner .one{
@@ -629,7 +673,9 @@ form.FormTwo label{
     line-height: 30px;
     color: #1f2847;
     text-align: center;
+    padding-top: 150px;
 }
+
 
 .news span.last{
     font-size: 14px;
@@ -639,6 +685,10 @@ form.FormTwo label{
     text-align: center;
 }
 
+.hhh{
+    margin-top: 115px;
+}
+
 .BotBbi{
     float: right;
 }
@@ -646,6 +696,8 @@ form.FormTwo label{
 .news{
     width: 100%;
     float: left;
+    background-color: #ffffff;
+    height: 970px;
 }
 
 .news .beskonechnost, .BotBbi{
@@ -659,6 +711,10 @@ form.FormTwo label{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.qs img, h6{
+    float: left;
 }
 
 .news .m+.m{
@@ -684,10 +740,22 @@ form.FormTwo label{
     transition: all 0.3s;
 }
 
-.beskonechnost p{
+.beskonechnost h3{
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
+}
+
+.beskonechnost p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #ced9e1;
+}
+
+.iuy{
+    position: relative;
+    top: -113px;
+    left: 30px;
 }
 
 .beskonechnost p a{
@@ -701,6 +769,10 @@ form.FormTwo label{
     color: #123123;
 }
 
+.beskonechnost{
+    margin-top: 25px;
+}
+
 .news span.bbi{
     font-size: 13px;
     line-height: 24px;
@@ -711,6 +783,7 @@ form.FormTwo label{
     font-size: 15px;
     line-height: 27px;
     color: #1f2847;
+    margin-left: 15px;
 }
 
 .news h6.h{
@@ -741,10 +814,27 @@ form.FormTwo label{
     width: 190px;
     height: 50px;
     background: rgba(222, 222, 222, 0);
-    border: none;
+    border: 1px #31c6ff;
     font-size: 16px;
     line-height: 54px;
     color: #4cc4f4;
+    margin-top: 74px;
+    margin-left: -102px;
+}
+
+.m{
+    background-color: #ffffff;
+
+}
+
+.qs{
+    background-color: #f0f4f7;
+    height: 69px;
+}
+
+.BotBbi{
+    padding-top: 23px;
+    float: right;
 }
 
 .button button{
@@ -768,6 +858,8 @@ form.FormTwo label{
     line-height: 54px;
     color: #ffffff;
 }
+
+
 
 footer a{
     text-decoration: none;
@@ -1044,11 +1136,13 @@ span.bol{
     /*margin-left: ;*/
 /*}*/
 
+
 footer{
     background-image: url(../img/jpg/fonfooter.jpg);
-    height: 925px;
-    background-position: -292px;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    height: 923px;
 }
 
 .adv .test{
@@ -1082,6 +1176,18 @@ footer{
     background-color: #677fed;
 }
 
+.line div:last-child{
+    background-color: #4fceff;
+}
+
+.line div:nth-child(2){
+    background-color: #af82f6;
+}
+
+.line div:first-child{
+    background-color: #677fed;
+}
+
 .marketing{
     width: 100%;
     float: left;
@@ -1095,9 +1201,28 @@ footer{
 .line{
     width: 100%;
     float: left;
+    background-color: #ffffff;
 }
 
-.line .tabs li{
+.line .poi{
+    height: 130px;
+}
+
+.line p{
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.line p span{
+    font-size: 21px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.line .poi{
     width: 33.3333%;
     float: left;
 }
@@ -1118,6 +1243,45 @@ footer{
 .qwe img{
     padding-top: 19px;
     padding-left: 99px;
+}
+
+.banner2{
+    height: 445px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.banner2 a{
+    position: relative;
+    top: 31px;
+    margin-left: 288px;
+}
+
+.marketing{
+    height: 625px;
+    background-color: #eff3f6;
+}
+
+.marketing h1{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.marketing ul{
+    margin-top: 75px;
+}
+
+.bot{
+    height: 845px;
+    background-color: #eff3f6;
+}
+
+
+@media (max-width: 1199px){
+.container{
+    width: 980px;}
 }
 
 
