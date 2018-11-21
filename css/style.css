@@ -1290,6 +1290,70 @@ footer{
 @media (max-width: 1199px){
 .container{
     width: 980px;}
+
+    .hotline button{
+        display: none;
+    }
+
+    .banner button{
+        margin-left: 341px;
+    }
+
+    .cards{
+        height: 1400px;
+    }
+
+    .test:nth-child(3){
+        position: relative;
+        top: 673px;
+        right: 75px;
+    }
+
+    .test:nth-child(1){
+        position: relative;
+        left: 158px;
+    }
+    .test:nth-child(2){
+        position: relative;
+        left: 225px;
+    }
+    .test:nth-child(4){
+    position: relative;
+        left: 129px;
+    }
+
+    .dohod{
+        background-position-x: -345px;
+    }
+
+    .incubator{
+        height: 850px;
+    }
+
+    .partner{
+        background-position-x: -585px;
+    }
+
+    .news{
+        height: 1310px;
+    }
+
+    .beskonechnost{
+        position: relative;
+        left: 196px;
+    }
+
+    .BotBbi{
+        position: relative;
+        top: 400px;
+        left: -230px;
+    }
+
+    .news button{
+        position: relative;
+        top: 360px;
+    }
+
 }
 
 
