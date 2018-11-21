@@ -1274,6 +1274,18 @@ footer{
     background-color: #eff3f6;
 }
 
+.up{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    background-color: #af82f6;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    width: 75px;
+    border-radius: 360px;
+}
+
 
 @media (max-width: 1199px){
 .container{
