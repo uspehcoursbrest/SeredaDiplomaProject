@@ -8,11 +8,10 @@ body {
     background-color: #123456;
 }
 
-body{
+body {
     min-height: 1200px;
     max-width: 1920px;
 }
-
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -30,58 +29,58 @@ ul {
     padding: 0 15px;
 }
 
-.clear::after{
+.clear::after {
     content: '';
     display: block;
     clear: both;
 }
 
-header{
+header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.hotline img{
+.hotline img {
     position: relative;
     top: -40px;
 }
 
-.hotline{
+.hotline {
     width: 100%;
     float: left;
 }
 
-.hotline ul{
+.hotline ul {
     margin-top: 30px;
 }
 
-.hotline ul li{
+.hotline ul li {
     float: left;
     margin-left: 65.2px;
 }
 
 /*.hotline a.imgg{*/
-    /*padding-left: 0px;*/
+/*padding-left: 0px;*/
 /*}*/
 
-.hotline ul a{
+.hotline ul a {
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
     text-decoration: none;
 }
 
-.hotline ul a:hover{
+.hotline ul a:hover {
     color: #123123;
     transition: all 0.3s;
 }
 
-.hotline ul a.purple{
+.hotline ul a.purple {
     color: #b998ef;
 }
 
-.hotline button{
+.hotline button {
     font-size: 14px;
     line-height: 35px;
     text-align: center;
@@ -91,12 +90,12 @@ header{
     height: 35px;
 }
 
-.hotline button:hover{
+.hotline button:hover {
     font-size: 16px;
     transition: all 0.3s;
 }
 
-.banner button{
+.banner button {
     font-size: 18px;
     line-height: 54px;
     color: #4cc4f4;
@@ -107,44 +106,44 @@ header{
     margin-left: 455px;
 }
 
-.banner a{
+.banner a {
     display: block;
     text-align: center;
     padding-top: 314px;
 }
 
-.banner button{
+.banner button {
     display: block;
     text-align: center;
     margin-top: 77px;
 }
 
-.banner button:hover{
+.banner button:hover {
     font-size: 20px;
     transition: all 0.3s;
 }
 
 /*.tri3{*/
-    /*background-image: url(../img/jpg/fonheader.jpg);*/
-    /*height: 1040px;*/
-    /*background-repeat: no-repeat;*/
+/*background-image: url(../img/jpg/fonheader.jpg);*/
+/*height: 1040px;*/
+/*background-repeat: no-repeat;*/
 /*}*/
 
-.lines{
+.lines {
     height: 128px;
     margin-top: 267px;
 }
 
-.banner{
+.banner {
     height: 790px;
 }
 
-.hotline{
+.hotline {
     height: 115px;
     margin-top: 50px;
 }
 
-.lines p{
+.lines p {
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
@@ -152,57 +151,58 @@ header{
     padding-top: 40px;
 }
 
-.lines p span{
+.lines p span {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
 }
 
-.cards{
-     background-color: #f0f4f7;
-     height: 800px;
- }
+.cards {
+    background-color: #f0f4f7;
+    height: 800px;
+}
 
-
-.tesst{
+.tesst {
     background-color: #1f2847;
     width: 265px;
     height: 140px;
 }
 
-.tesst h2{
+.tesst h2 {
     font-size: 17px;
     line-height: 54px;
     text-align: center;
 }
 
-.tesst h2.sky{
+.tesst h2.sky {
     color: #4fceff;
 }
 
-.tesst h2.blur{
+.tesst h2.blur {
     color: #858eff;
 }
 
-.tesst h2.blue{
+.tesst h2.blue {
     color: #6e87fa;
 }
-.tesst h2.purp{
+
+.tesst h2.purp {
     color: #af82f6;
 }
-.test{
+
+.test {
     width: 265px;
     height: 540px;
     margin-top: 135px;
     box-shadow: 2px 2px 1px 1px rgba(207, 215, 221, 1);
 }
 
-.test img{
+.test img {
     padding-top: 19px;
     padding-left: 99px;
 }
 
-.test ul li span{
+.test ul li span {
     font-size: 15px;
     line-height: 48px;
     color: #1f2847;
@@ -210,7 +210,7 @@ header{
     text-align: center;
 }
 
-.test span.procent{
+.test span.procent {
     font-size: 45px;
     line-height: 24px;
     color: #1f2847;
@@ -219,7 +219,7 @@ header{
     padding-left: 25px;
 }
 
-.test span.day{
+.test span.day {
     font-size: 15px;
     line-height: 24px;
     color: #1f2847;
@@ -227,26 +227,27 @@ header{
     padding: 15px;
 }
 
-.test ul li.wight{
+.test ul li.wight {
     background-color: #ffffff;
     height: 45px;
 }
 
-.test ul li.grey{
+.test ul li.grey {
     background-color: #f0f4f7;
     height: 45px;
 }
 
-.test ul li span{
+.test ul li span {
     text-align: center;
 }
 
-.test .b1, .b2, .b3, .b4{
+.test .b1, .b2, .b3, .b4 {
     background-color: #ffffff;
     padding: 17px;
     height: 80px;
 }
-.test .b1 button{
+
+.test .b1 button {
     display: block;
     height: 50px;
     width: 230px;
@@ -259,7 +260,7 @@ header{
     background-color: #637ae2;
 }
 
-.test .b2 button{
+.test .b2 button {
     height: 50px;
     width: 230px;
     text-align: center;
@@ -269,7 +270,8 @@ header{
     border: none;
     background-color: #858eff;
 }
-.test .b3 button{
+
+.test .b3 button {
     height: 50px;
     width: 230px;
     text-align: center;
@@ -279,7 +281,8 @@ header{
     border: none;
     background-color: #af82f6;
 }
-.test .b4 button{
+
+.test .b4 button {
     height: 50px;
     width: 230px;
     text-align: center;
@@ -290,47 +293,47 @@ header{
     background-color: #4fceff;
 }
 
-.test .b1 button:hover{
+.test .b1 button:hover {
     background-color: #F4A460;
     font-size: 18px;
     transition: all 0.3s;
 }
 
-.test .b2 button:hover{
+.test .b2 button:hover {
     background-color: #F4A460;
     font-size: 18px;
     transition: all 0.3s;
 }
 
-.test .b3 button:hover{
+.test .b3 button:hover {
     background-color: #F4A460;
     font-size: 18px;
     transition: all 0.3s;
 }
 
-.test .b4 button:hover{
+.test .b4 button:hover {
     background-color: #F4A460;
     font-size: 18px;
     transition: all 0.3s;
 }
 
-.test span.blue{
+.test span.blue {
     color: #5a6fcf;
 }
 
-.test span.blur{
+.test span.blur {
     color: #6a86f1;
 }
 
-.test span.purp{
+.test span.purp {
     color: #a773f7;
 }
 
-.test span.sky{
+.test span.sky {
     color: #33c1f7;
 }
 
-form option{
+form option {
     font-size: 17px;
     line-height: 48px;
     color: #17203f;
@@ -343,73 +346,71 @@ form option{
     background-position: center;
     background-repeat: no-repeat;
 
-
 }
 
-.dohod h1{
+.dohod h1 {
     font-size: 37px;
     line-height: 54px;
     color: #f0f4f7;
     padding-top: 95px;
 }
 
-
-.dohod div span{
+.dohod div span {
     font-size: 14px;
     line-height: 54px;
     color: #f0f4f7;
 }
 
-.dohod button span{
+.dohod button span {
     font-size: 21px;
     line-height: 54px;
     color: #ffffff;
 }
 
-.dohod button{
+.dohod button {
     font-size: 21px;
     line-height: 54px;
     color: #ffffff;
 }
 
-.dohod button:hover{
+.dohod button:hover {
     font-size: 23px;
     transition: all 0.3s;
 }
 
-form.FormOne label{
+form.FormOne label {
     font-size: 17px;
     line-height: 48px;
     color: #ffffff;
     display: block;
 }
 
-.FormOne option{
+.FormOne option {
     font-weight: 600;
 }
 
-.FormOne select{
+.FormOne select {
     font-weight: 600;
 }
 
-.FormOne li{
+.FormOne li {
     float: left;
     margin: 30px;
     margin-left: auto;
 }
 
-form.FormOne select{
+form.FormOne select {
     width: 270px;
     height: 45px;
     background-color: #ffffff;
 }
 
-.FormTwo{
+.FormTwo {
     margin-top: 34px;
     margin-left: 31px;
 }
 
-form.FormTwo input{
+form.FormTwo input {
     background-color: #2f3753;
     width: 510px;
     height: 40px;
@@ -418,7 +419,7 @@ form.FormTwo input{
     color: #ffffff;
 }
 
-form.FormTwo label{
+form.FormTwo label {
     font-size: 17px;
     line-height: 48px;
     color: #ffffff;
@@ -426,122 +427,122 @@ form.FormTwo label{
     margin-left: 192px;
 }
 
- button.down{
+button.down {
     background-color: rgba(255, 255, 255, 0);
-     width: 475px;
-     height: 75px;
-     color: #ffffff;
-     float: right;
-     margin-top: 68px;
-     margin-left: 0;
+    width: 475px;
+    height: 75px;
+    color: #ffffff;
+    float: right;
+    margin-top: 68px;
+    margin-left: 0;
 }
 
- button.down span{
-     color: #ffffff;
-     font-size: 21px;
-     line-height: 54px;
-     text-align: center;
- }
+button.down span {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 54px;
+    text-align: center;
+}
 
- .incubator{
-     height: 745px;
-     background-color: #ffffff;
- }
+.incubator {
+    height: 745px;
+    background-color: #ffffff;
+}
 
- .incubator h2{
-     font-size: 33px;
-     line-height: 54px;
-     color: #1f2847;
- }
- 
- .incubator span{
-     font-size: 14px;
-     line-height: 54px;
-     color: #1f2847;
-     font-weight: bold;
- }
- 
- .incubator p{
-     font-size: 17px;
-     line-height: 30px;
-     color: #1f2847;
- }
+.incubator h2 {
+    font-size: 33px;
+    line-height: 54px;
+    color: #1f2847;
+}
 
- .incubator p.two{
-     padding-left: 48px;
- }
+.incubator span {
+    font-size: 14px;
+    line-height: 54px;
+    color: #1f2847;
+    font-weight: bold;
+}
 
- .incubator p span{
-     font-weight: bold;
-     font-size: 17px;
-     line-height: 30px;
-     color: #1f2847;
+.incubator p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #1f2847;
+}
 
- }
+.incubator p.two {
+    padding-left: 48px;
+}
 
- .incubator ul.clear{
-     width: 100%;
-     float: left;
- }
+.incubator p span {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    color: #1f2847;
 
- .incubator ul.clear li{
-     width: 33.3333%;
-     float: left;
- }
+}
 
- .incubator ul li img{
-     float: right;
- }
+.incubator ul.clear {
+    width: 100%;
+    float: left;
+}
 
- .ter{
-     padding-top: 150px;
- }
+.incubator ul.clear li {
+    width: 33.3333%;
+    float: left;
+}
 
- .bonus h2{
-     font-size: 33px;
-     line-height: 30px;
-     color: #1f2847;
-     text-align: center;
-     padding-top: 155px;
- }
- 
- .bonus{
-     background-color: #f0f4f7;
-     height: 1170px;
- }
+.incubator ul li img {
+    float: right;
+}
 
-.adv{
+.ter {
+    padding-top: 150px;
+}
+
+.bonus h2 {
+    font-size: 33px;
+    line-height: 30px;
+    color: #1f2847;
+    text-align: center;
+    padding-top: 155px;
+}
+
+.bonus {
+    background-color: #f0f4f7;
+    height: 1170px;
+}
+
+.adv {
     width: 100%;
     float: left;
 }
 
 /*.yn, .part, .nach, .kval, .enter, .vozm{*/
-    /*display: block;*/
+/*display: block;*/
 /*}*/
 
-.adv .ri, .phon, .le{
+.adv .ri, .phon, .le {
     width: 33.333333%;
     float: left;
     margin-top: 100px;
 }
 
- .bonus span.pika{
-     font-size: 14px;
-     line-height: 30px;
-     color: #1f2847;
-     display: block;
-     text-align: center;
- }
+.bonus span.pika {
+    font-size: 14px;
+    line-height: 30px;
+    color: #1f2847;
+    display: block;
+    text-align: center;
+}
 
- .bonus p.pa{
-     font-size: 17px;
-     line-height: 35px;
-     color: #1f2847;
-     text-align: center;
-     margin-top: 16px;
- }
+.bonus p.pa {
+    font-size: 17px;
+    line-height: 35px;
+    color: #1f2847;
+    text-align: center;
+    margin-top: 16px;
+}
 
-.bonus .plm p{
+.bonus .plm p {
     font-size: 21px;
     line-height: 27px;
     color: #1f2847;
@@ -550,92 +551,92 @@ form.FormTwo label{
     margin-top: 80px;
 }
 
-.bonus span{
+.bonus span {
     font-size: 15px;
     line-height: 24px;
     color: #1f2847;
     font-weight: bold;
 }
 
-.partner{
+.partner {
     background-image: url(../img/jpg/foncontent2.jpg);
     height: 800px;
     background-position-y: -289px;
-    background-position-x: -286px;
+    background-position-x: -350px;
 }
 
-.partner h2{
+.partner h2 {
     font-size: 33px;
     line-height: 30px;
     color: #ffffff;
     padding: 130px 55px 70px 55px;
 }
 
-.partner .one{
+.partner .one {
     width: 565px;
     height: 100px;
     background-color: rgba(54, 104, 156, 0.7);
 }
 
-.partner .two{
+.partner .two {
     width: 565px;
     height: 100px;
     background-color: rgba(54, 104, 156, 0.7);
     margin: 20px 0;
 }
 
-.partner .tri{
+.partner .tri {
     width: 565px;
     height: 100px;
     background-color: rgba(54, 104, 156, 0.7);
 }
 
-.partner .one p{
+.partner .one p {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     text-align: center;
 }
 
-.partner .two p{
+.partner .two p {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     text-align: center;
 }
 
-.partner .iii{
+.partner .iii {
     float: right;
     width: 570px;
 }
 
-.partner .iii button{
+.partner .iii button {
     margin-left: 50px;
     margin-top: 95px;
 }
 
-.partner .tri p{
+.partner .tri p {
     font-size: 15px;
     line-height: 22px;
     color: #ffffff;
     text-align: center;
 }
 
-.partner .one p span{
+.partner .one p span {
     font-size: 33px;
     line-height: 36px;
     color: #ffffff;
     font-weight: bold;
 }
 
-.partner .two p span{
+.partner .two p span {
     font-size: 33px;
     line-height: 36px;
     color: #ffffff;
     font-weight: bold;
 }
 
-.partner .tri p span{
+.partner .tri p span {
     font-size: 33px;
     line-height: 36px;
     color: #ffffff;
@@ -643,7 +644,7 @@ form.FormTwo label{
 
 }
 
-.partner button{
+.partner button {
     width: 475px;
     height: 75px;
     background-color: rgba(222, 222, 222, 0);
@@ -654,18 +655,18 @@ form.FormTwo label{
     text-align: center;
 }
 
-.partner button:hover{
+.partner button:hover {
     font-size: 23px;
     transition: all 0.3s;
 }
 
-.partner button span{
+.partner button span {
     font-size: 21px;
     line-height: 54px;
     color: #ffffff;
 }
 
-.news h2{
+.news h2 {
     font-size: 33px;
     line-height: 30px;
     color: #1f2847;
@@ -673,8 +674,7 @@ form.FormTwo label{
     padding-top: 150px;
 }
 
-
-.news span.last{
+.news span.last {
     font-size: 14px;
     line-height: 30px;
     color: #1f2847;
@@ -682,27 +682,26 @@ form.FormTwo label{
     text-align: center;
 }
 
-.hhh{
+.hhh {
     margin-top: 115px;
 }
 
-.BotBbi{
+.BotBbi {
     float: right;
 }
 
-.news{
+.news {
     width: 100%;
-    float: left;
     background-color: #ffffff;
     height: 970px;
 }
 
-.news .beskonechnost, .BotBbi{
+.news .beskonechnost, .BotBbi {
     width: 50%;
     float: left;
 }
 
-.news .img{
+.news .img {
     width: 570px;
     height: 360px;
     background-size: cover;
@@ -710,21 +709,21 @@ form.FormTwo label{
     background-position: center;
 }
 
-.qs img, h6{
+.qs img, h6 {
     float: left;
 }
 
-.news .m+.m{
+.news .m + .m {
     margin-top: 25px;
 }
 
-.news span{
+.news span {
     font-size: 13px;
     line-height: 24px;
     color: #9b9fad;
 }
 
-.news button{
+.news button {
     font-size: 16px;
     line-height: 50px;
     color: #4cc4f4;
@@ -732,82 +731,82 @@ form.FormTwo label{
     height: 50px;
 }
 
-.news button:hover{
+.news button:hover {
     font-size: 18px;
     transition: all 0.3s;
 }
 
-.beskonechnost h3{
+.beskonechnost h3 {
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
 }
 
-.beskonechnost p{
+.beskonechnost p {
     font-size: 15px;
     line-height: 20px;
     color: #ced9e1;
 }
 
-.iuy{
+.iuy {
     position: relative;
     top: -113px;
     left: 30px;
 }
 
-.beskonechnost p a{
+.beskonechnost p a {
     font-size: 13px;
     line-height: 20px;
     color: #49d5fe;
     text-decoration: none;
 }
 
-.beskonechnost p a:hover{
+.beskonechnost p a:hover {
     color: #123123;
 }
 
-.beskonechnost{
+.beskonechnost {
     margin-top: 25px;
 }
 
-.news span.bbi{
+.news span.bbi {
     font-size: 13px;
     line-height: 24px;
     color: #b4c1d2;
 }
 
-.news h6{
+.news h6 {
     font-size: 15px;
     line-height: 27px;
     color: #1f2847;
     margin-left: 15px;
 }
 
-.news h6.h{
+.news h6.h {
     font-size: 15px;
     line-height: 27px;
     color: #1f2847;
     font-weight: bold;
 }
 
-.news p.now{
+.news p.now {
     font-size: 15px;
     line-height: 20px;
     color: #6e7383;
 }
 
-.news p.now a{
+.news p.now a {
     font-size: 13px;
     line-height: 20px;
     color: #29baf2;
     text-decoration: none;
 }
 
-.news p.now a:hover{
+.news p.now a:hover {
     color: #123123;
 }
 
-.news button{
+.news button {
     width: 190px;
     height: 50px;
     background: rgba(222, 222, 222, 0);
@@ -819,22 +818,22 @@ form.FormTwo label{
     margin-left: -102px;
 }
 
-.m{
+.m {
     background-color: #ffffff;
 
 }
 
-.qs{
+.qs {
     background-color: #f0f4f7;
     height: 69px;
 }
 
-.BotBbi{
+.BotBbi {
     padding-top: 23px;
     float: right;
 }
 
-.button button{
+.button button {
     width: 460px;
     height: 80px;
     font-size: 21px;
@@ -845,190 +844,188 @@ form.FormTwo label{
     margin-left: 355px;
 }
 
-.button button:hover{
+.button button:hover {
     font-size: 23px;
     transition: all 0.3s;
 }
 
-.button button span.icon{
+.button button span.icon {
     font-size: 21px;
     line-height: 54px;
     color: #ffffff;
 }
 
-
-
-footer a{
+footer a {
     text-decoration: none;
 }
 
-
-p.q{
+p.q {
     font-size: 15px;
     line-height: 25px;
     color: #bbc0d2;
 }
 
-.address span{
+.address span {
     font-size: 14px;
     line-height: 25px;
     color: #6981f1;
 }
 
-a.poh{
+a.poh {
     font-size: 15px;
     line-height: 22px;
     color: #bbc0d2;
 }
 
-span.od{
+span.od {
     font-size: 14px;
     line-height: 22px;
     color: #b998ef;
 }
+
 span.odd {
     font-size: 14px;
     line-height: 22px;
     color: #49d5fe;
 }
 
-span.pul{
+span.pul {
     font-size: 14px;
     line-height: 22px;
     color: #b998ef;
- }
+}
 
-.chat span.puul{
+.chat span.puul {
     font-size: 14px;
     line-height: 22px;
     color: #49d5fe;
 }
 
-.downline li a{
+.downline li a {
     font-size: 14px;
     line-height: 17px;
     color: #bbc0d2;
 }
 
-.downline ul{
+.downline ul {
     display: block;
     text-align: center;
 }
 
-a.g{
+a.g {
     font-size: 14px;
     line-height: 17px;
     color: #b998ef;
 }
 
-.marketing h1{
+.marketing h1 {
     font-size: 31px;
     line-height: 54px;
     color: #1f2847;
 }
 
-.marketing p span{
+.marketing p span {
     font-size: 17px;
     line-height: 30px;
     color: #1f2847;
     font-weight: bold;
 }
 
-.marketing p{
+.marketing p {
     font-size: 17px;
     line-height: 30px;
     color: #1f2847;
 }
 
-.line span{
+.line span {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
 }
 
-span.bol{
+span.bol {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
 }
 
-.cards1{
+.cards1 {
     height: 640px;
     width: 270px;
 }
 
-.cards2{
+.cards2 {
     height: 640px;
     width: 270px;
 }
 
-.cards3{
+.cards3 {
     height: 640px;
     width: 270px;
 }
 
-.cards4{
+.cards4 {
     height: 640px;
     width: 270px;
 }
 
-.testz{
+.testz {
     background-color: #1f2847;
     height: 140px;
 }
 
-.testzz{
+.testzz {
     background-color: #1f2847;
     height: 140px;
 }
 
-.testzzz{
+.testzzz {
     background-color: #1f2847;
     height: 140px;
 }
 
-.testzzzz{
+.testzzzz {
     background-color: #1f2847;
     height: 140px;
 }
 
-.testz h2{
+.testz h2 {
     font-size: 17px;
     line-height: 54px;
     color: #6e87fa;
     text-align: center;
 }
 
-.testzz h2{
+.testzz h2 {
     font-size: 17px;
     line-height: 54px;
     color: #858eff;
     text-align: center;
 }
 
-.testzzz h2{
+.testzzz h2 {
     font-size: 17px;
     line-height: 54px;
     color: #af82f6;
     text-align: center;
 }
 
-.testzzzz h2{
+.testzzzz h2 {
     font-size: 17px;
     line-height: 54px;
     color: #4fceff;
     text-align: center;
 }
 
-.multi{
+.multi {
     background-color: #ffffff;
 }
 
-.multi span{
+.multi span {
     font-weight: bold;
 }
 
-.cards1 button{
+.cards1 button {
     background-color: #637ae2;
     width: 230px;
     height: 50px;
@@ -1039,7 +1036,7 @@ span.bol{
     text-align: center;
 }
 
-.cards2 button{
+.cards2 button {
     background-color: #858eff;
     width: 230px;
     height: 50px;
@@ -1050,7 +1047,7 @@ span.bol{
     text-align: center;
 }
 
-.cards3 button{
+.cards3 button {
     background-color: #af82f6;
     width: 230px;
     height: 50px;
@@ -1061,7 +1058,7 @@ span.bol{
     text-align: center;
 }
 
-.cards4 button{
+.cards4 button {
     background-color: #4fceff;
     border: none;
     width: 230px;
@@ -1072,139 +1069,137 @@ span.bol{
     text-align: center;
 }
 
-.downline{
+.downline {
     float: bottom;
 }
 
-.downline li{
+.downline li {
     display: inline-block;
 }
 
-.downline li a:hover{
+.downline li a:hover {
     color: #123123;
     transition: all 0.3s;
 }
 
-.downline li+li{
+.downline li + li {
     margin-left: 50px;
 }
 
-.menu .cop, .address, .social, .chat{
+.menu .cop, .address, .social, .chat {
     display: inline-block;
 }
 
-.menu .social a:hover{
+.menu .social a:hover {
     color: #fff;
     font-size: 14px;
     transition: all 0.3s;
 }
 
-.menu .chat a:hover{
+.menu .chat a:hover {
     color: #fff;
     font-size: 14px;
     transition: all 0.3s;
 }
 
-.menu .address{
+.menu .address {
     margin-left: 120px;
 }
 
-.menu .social{
+.menu .social {
     margin-left: 70px;
 }
 
-.menu .chat{
+.menu .chat {
     margin-left: 100px;
 }
 
-
-.payer ul{
+.payer ul {
     display: table;
     width: 100%;
     text-align: center;
 }
 
-.payer ul li{
+.payer ul li {
     display: table-cell;
     vertical-align: top;
 }
 
 /*.payer li:first-child{*/
-    /*margin-left: ;*/
+/*margin-left: ;*/
 /*}*/
 
-
-footer{
-    background-image: url(../img/jpg/fonfooter.jpg);
+footer {
+    /*background-image: url(../img/jpg/fonfooter.jpg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 923px;
 }
 
-.adv .test{
+.adv .test {
     display: inline-block;
 }
 
-.adv .test+.test{
+.adv .test + .test {
     margin-left: 31.4222px;
 }
 
-.lines{
+.lines {
     width: 100%;
     float: left;
 }
 
-.lines .poi{
+.lines .poi {
     width: 33.33333%;
     float: left;
     height: 130px;
 }
 
-.lines div:last-child{
+.lines div:last-child {
     background-color: #4fceff;
 }
 
-.lines div:nth-child(2){
+.lines div:nth-child(2) {
     background-color: #af82f6;
 }
 
-.lines div:first-child{
+.lines div:first-child {
     background-color: #677fed;
 }
 
-.line div:last-child{
+.line div:last-child {
     background-color: #4fceff;
 }
 
-.line div:nth-child(2){
+.line div:nth-child(2) {
     background-color: #af82f6;
 }
 
-.line div:first-child{
+.line div:first-child {
     background-color: #677fed;
 }
 
-.marketing{
+.marketing {
     width: 100%;
     float: left;
 }
 
-.marketing li{
+.marketing li {
     width: 50%;
     float: left;
 }
 
-.line{
+.line {
     width: 100%;
     background-color: #ffffff;
 }
 
-.line .poi{
+.line .poi {
     height: 130px;
 }
 
-.line p{
+.line p {
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
@@ -1212,22 +1207,22 @@ footer{
     margin-top: 40px;
 }
 
-.line p span{
+.line p span {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
 }
 
-.line .poi{
+.line .poi {
     width: 33.3333%;
     float: left;
 }
 
-.qwe{
+.qwe {
     margin: 0 -15px;
 }
 
-.cards1, .cards2, .cards3, .cards4{
+.cards1, .cards2, .cards3, .cards4 {
     width: 25%;
     float: left;
 }
@@ -1236,12 +1231,12 @@ footer{
     padding: 0 15px;
 }
 
-.qwe img{
+.qwe img {
     padding-top: 19px;
     padding-left: 99px;
 }
 
-.banner2{
+.banner2 {
     height: 445px;
     background-size: cover;
     background-position: center;
@@ -1249,32 +1244,32 @@ footer{
 
 }
 
-.banner2 a{
+.banner2 a {
     position: relative;
     top: 31px;
     margin-left: 288px;
 }
 
-.marketing{
+.marketing {
     height: 625px;
     background-color: #ffffff;
 }
 
-.marketing h1{
+.marketing h1 {
     margin-top: 120px;
     margin-left: 40px;
 }
 
-.marketing ul{
+.marketing ul {
     margin-top: 75px;
 }
 
-.bot{
+.bot {
     height: 845px;
     background-color: #eff3f6;
 }
 
-.up{
+.up {
     position: fixed;
     left: 10px;
     bottom: 10px;
@@ -1286,73 +1281,83 @@ footer{
     border-radius: 360px;
 }
 
+@media (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
 
-@media (max-width: 1199px){
-.container{
-    width: 980px;}
-
-    .hotline button{
+    .hotline button {
         display: none;
     }
 
-    .banner button{
+    .banner button {
         margin-left: 341px;
     }
 
-    .cards{
+    .cards {
         height: 1400px;
     }
 
-    .test:nth-child(3){
+    .test:nth-child(3) {
         position: relative;
         top: 673px;
         right: 75px;
     }
 
-    .test:nth-child(1){
+    .test:nth-child(1) {
         position: relative;
         left: 158px;
     }
-    .test:nth-child(2){
+
+    .test:nth-child(2) {
         position: relative;
         left: 225px;
     }
-    .test:nth-child(4){
-    position: relative;
+
+    .test:nth-child(4) {
+        position: relative;
         left: 129px;
     }
 
-    .dohod{
-        background-position-x: -345px;
+    .dohod {
+        background-position-x: -321px;
     }
 
-    .incubator{
+    .incubator {
         height: 850px;
     }
 
-    .partner{
-        background-position-x: -585px;
+    .partner {
+        background-position-x: -561px;
     }
 
-    .news{
+    .news {
         height: 1310px;
     }
 
-    .beskonechnost{
+    .beskonechnost {
         position: relative;
         left: 196px;
     }
 
-    .BotBbi{
+    .BotBbi {
         position: relative;
         top: 400px;
         left: -230px;
     }
 
-    .news button{
+    .news button {
         position: relative;
         top: 360px;
     }
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 780px;
+    }
+
 
 }
 
