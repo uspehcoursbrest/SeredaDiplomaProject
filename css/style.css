@@ -859,6 +859,7 @@ footer a {
     text-decoration: none;
 }
 
+
 p.q {
     font-size: 15px;
     line-height: 25px;
@@ -1122,7 +1123,7 @@ span.bol {
 
 .payer ul li {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 /*.payer li:first-child{*/
@@ -1135,6 +1136,22 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     height: 923px;
+}
+
+footer .payer ul{
+    padding-top: 103px;
+}
+
+footer .button{
+    margin-top: 203px;
+}
+
+footer .menu{
+    margin-top: 81px;
+}
+
+footer .downline{
+    margin-top: 170px;
 }
 
 .adv .test {
@@ -1351,13 +1368,140 @@ footer {
         top: 360px;
     }
 
+    .menu .address {
+        margin-left: 42px;
+    }
+
+    .menu .social {
+        margin-left: 42px;
+    }
+
+    .menu .chat {
+        margin-left: 42px;
+    }
+
+    footer .button{
+        margin-left: -217px;
+        margin-top: 182px;
+    }
+
 }
 
 @media (max-width: 991px) {
     .container {
         width: 780px;
     }
+    .hotline li+li {
+        position: relative;
+        top: -40px;
+    }
 
+    .lines {
+        margin-left: -5px;
+    }
+
+    .cards{
+        height: 1350px;
+    }
+
+    .test:nth-child(1){
+        position: relative;
+        top: -45px;
+        left: 90px;
+    }
+
+    .test:nth-child(2){
+        position: relative;
+        top: -45px;
+        left: 90px;
+    }
+
+    .test:nth-child(3){
+        position: relative;
+        top: -95px;
+        left: 59px;
+    }
+
+    .test:nth-child(4){
+        position: relative;
+        top: -95px;
+        left: 58px;
+    }
+
+    .dohod{
+        background-position-x: -344px;
+    }
+
+    .dohod button{
+        position: relative;
+        left: -227px;
+    }
+
+    .incubator{
+        height: 900px;
+    }
+
+    .partner{
+        background-position-x: -783px;
+    }
+
+    .beskonechnost {
+        position: relative;
+        left: 87px;
+    }
+
+    .beskonechnost .iuy{
+        position: relative;
+        top: -150px;
+    }
+
+    .BotBbi {
+        position: relative;
+        left: -185px;
+    }
+
+    footer .button{
+        position: relative;
+        left: -101px;
+    }
+
+    .menu .address {
+        margin-left: 20px;
+
+    }
+
+    .menu .social {
+        margin-left: 20px;
+    }
+
+    .menu .chat {
+        margin-left: 20px;
+    }
+
+    .menu .address a{
+        font-size: 11px;
+
+    }
+
+    .menu .social a{
+        font-size: 11px;
+    }
+
+    .menu .chat a{
+        font-size: 11px;
+    }
+
+    span.od{
+        font-size: 11px;
+    }
+
+    span.odd{
+        font-size: 11px;
+    }
+
+    .address span, p.q{
+        font-size: 11px;
+    }
 
 }
 
