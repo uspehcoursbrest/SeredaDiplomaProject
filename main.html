@@ -53,10 +53,10 @@
             <div>
                 <button><span class="icon-telegram"></span> ПОДКЛЮЧИТЬСЯ</button>
             </div>
-            <div class="lines clear">
-                <div class="poi"><p>линия <br><span>ПРИБЫЛИ</span></p></div>
-                <div class="poi"><p>линия <br><span>СТАБИЛЬНОСТИ</span></p></div>
-                <div class="poi"><p>линия <br><span>БЕСКОНЕЧНОСТИ</span></p></div>
+            <div class="lines clear" id="tabs">
+                <div class="poi tabs1"><p>линия <br><span>ПРИБЫЛИ</span></p></div>
+                <div class="poi tabs2"><p>линия <br><span>СТАБИЛЬНОСТИ</span></p></div>
+                <div class="poi tabs3"><p>линия <br><span>БЕСКОНЕЧНОСТИ</span></p></div>
             </div>
         </div>
     </div>
@@ -170,11 +170,13 @@
                 </form>
                 <form action="#" class="FormTwo clear">
                     <div class="summ">
-                        <label for="sum">Введите сумму:</label>
-                        <input type="text" name="sum" id="sum">
+                        <label for="sumInv">Введите сумму:</label>
+                        <input class="enterNum" type="text" value="500" id="sumInv">
                     </div>
                 </form>
-                <div class="begunok"></div>
+                <div class="begunok range">
+                    <input type="text" class="rangeSum" id="rangeSum">
+                </div>
                 <div class="clear">
                     <button class="down"><span class="icon-telegram"></span> ПОДКЛЮЧИТЬСЯ</button>
                 </div>
@@ -225,18 +227,18 @@
                 оснащен бонусным апгрейдом,<br> который способствует увеличению получаемой прибыли!</p>
             <div class="adv clear">
                 <div class="ri">
-                    <div class="yn"><span>УНИКАЛЬНЫЕ ИНВЕСТИЦИОННЫЕ БОТЫ</span><img src="img/png/card1.png" alt="">
+                    <div class="item"><span>УНИКАЛЬНЫЕ ИНВЕСТИЦИОННЫЕ БОТЫ</span><img src="img/png/card1.png" alt="">
                     </div>
-                    <div class="part"><span>ПАРТНЕРСКАЯ ПРОГРАММА ДО 10%</span><img src="img/png/card2.png" alt="">
+                    <div class="item"><span>ПАРТНЕРСКАЯ ПРОГРАММА ДО 10%</span><img src="img/png/card2.png" alt="">
                     </div>
-                    <div class="nach"><span>НАЧИСЛЕНИЯ КАЖДЫЕ 24 ЧАСА</span><img src="img/png/card3.png" alt=""></div>
+                    <div class="item"><span>НАЧИСЛЕНИЯ КАЖДЫЕ 24 ЧАСА</span><img src="img/png/card3.png" alt=""></div>
                 </div>
                 <div class="phon"><img src="img/png/iPhone6.png" alt=""></div>
                 <div class="le">
-                    <div class="kval"><img src="img/png/card4.png" alt=""><span>КВАЛИФИЦИРОВАННАЯ ПОДДЕРЖКА</span></div>
-                    <div class="enter"><img src="img/png/card5.png" alt=""><span>ВЫВОД СРЕДСТВ В РЕЖИМЕ ИНСТАНТ</span>
+                    <div class="item"><img src="img/png/card4.png" alt=""><span>КВАЛИФИЦИРОВАННАЯ ПОДДЕРЖКА</span></div>
+                    <div class="item"><img src="img/png/card5.png" alt=""><span>ВЫВОД СРЕДСТВ В РЕЖИМЕ ИНСТАНТ</span>
                     </div>
-                    <div class="vozm"><img src="img/png/card6.png" alt=""><span>ВОЗМОЖНОСТЬ УВЕЛИЧЕНИЯ ПРИБЫЛИ</span>
+                    <div class="item"><img src="img/png/card6.png" alt=""><span>ВОЗМОЖНОСТЬ УВЕЛИЧЕНИЯ ПРИБЫЛИ</span>
                     </div>
                 </div>
             </div>
@@ -286,9 +288,9 @@
                         <span class="bbi">Ваш бот BBI</span></div>
                 </div>
                 <div class="BotBbi clear">
-                    <div class="m clear">
+                    <div class="m clear accordion">
 
-                        <div class="qs clear"><img src="img/jpg/07-ноя.jpg" alt=""><h6>Новый Бот BIT. Партнерская
+                        <div class="qs title active clear"><img src="img/jpg/07-ноя.jpg" alt=""><h6>Новый Бот BIT. Партнерская
                             программа.<br><span class="bbi">Ваш бот BBI</span></h6>
                         </div>
 
@@ -301,19 +303,35 @@
                             кода<br>
                             воссоздался некто<a href="#">...подробнее></a></p>
                     </div>
-                    <div class="m clear">
+                    <div class="m clear accordion">
 
-                        <div class="qs clear"><img src="img/jpg/02-ноя.jpg" alt=""><h6 class="h">Ссылки. Чат ENG.
+                        <div class="qs title clear"><img src="img/jpg/02-ноя.jpg" alt=""><h6 class="h">Ссылки. Чат ENG.
                             Раздел<br><span class="bbi">Ваш бот BBI</span></h6>
 
                         </div>
+                        <p class="now"
+                           style="display: block; border-bottom: 1px solid #cfd7dd;border-left: 1px solid #cfd7dd;border-right: 1px solid #cfd7dd;">
+                            Сегодня совместными усилиями Боты завершили все части и наброски<br> программных
+                            кодов, в течении их
+                            напряженной работы проявлалось<br> что-то нечто яркого цвета, в итоге объединения
+                            программного
+                            кода<br>
+                            воссоздался некто<a href="#">...подробнее></a></p>
                     </div>
-                    <div class="m clear">
+                    <div class="m clear accordion">
 
-                        <div class="qs clear"><img src="img/jpg/31-окт.jpg" alt=""><h6 class="h">Business Bot
+                        <div class="qs title clear"><img src="img/jpg/31-окт.jpg" alt=""><h6 class="h">Business Bot
                             Incubator<br><span class="bbi">Ваш бот BBI</span></h6>
 
                         </div>
+                        <p class="now"
+                           style="display: block; border-bottom: 1px solid #cfd7dd;border-left: 1px solid #cfd7dd;border-right: 1px solid #cfd7dd;">
+                            Сегодня совместными усилиями Боты завершили все части и наброски<br> программных
+                            кодов, в течении их
+                            напряженной работы проявлалось<br> что-то нечто яркого цвета, в итоге объединения
+                            программного
+                            кода<br>
+                            воссоздался некто<a href="#">...подробнее></a></p>
                     </div>
                 </div>
             </div>

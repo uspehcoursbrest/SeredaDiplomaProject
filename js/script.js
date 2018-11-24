@@ -38,5 +38,58 @@ window.onload = function () {
             scrollTop: 0
         }, 500);
         return false;
+    });
+
+    $('.card').mouseout(function () {
+        $(this).find('.thumbnail').stop().fadeOut()
     })
+    var accord = $('.accordion');
+    accord.find('.title:not(.active)').siblings('p').slideUp();
+
+    accord.find('.title').on('click', function () {
+        $(this).siblings('p').stop().slideToggle(500);
+        if ($(this).hasClass('active')){
+            $(this).removeClass('active');
+        }
+        else{
+            $(this).addClass('active');
+        }
+    });
+
+    $('#rangeSum').ionRangeSlider({
+        grid: true,
+        min: 51,
+        max: 100,
+        from: 500,
+        step: 1,
+        grid_num: 16,
+        grid_margin: false,
+        postfix: "$",
+        onStart: function (data) {
+            $('#sumInv').val(data.from);
+        },
+
+        onChange: function (data) {
+            $('#sumInv').val(data.from);
+        }
+    });
+
+    var sumRange = $('#rangeSum').data('ionRangeSlider'),
+        min = 51,
+        max = 100;
+
+    $('#sumInv').on('change keyup', function () {
+        var val = $(this).prop('value');
+        if (val < min) {
+            val = min;
+        } else if (val > max){
+            val = max;
+        }
+
+        sumRange.update({
+            from: val
+        });
+    });
+
+    // $('#tabs').tabs();
 };
