@@ -91,5 +91,7 @@ window.onload = function () {
         });
     });
 
-    // $('#tabs').tabs();
+    $('#tabs').tabs({
+
+    });
 };

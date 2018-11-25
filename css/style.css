@@ -134,6 +134,49 @@ header {
     margin-top: 272px;
 }
 
+.lines li.poi a{
+    margin-top: 35px;
+    margin-left: 95px;
+}
+
+
+
+
+.lines.ui-tabs{
+    padding: 0;
+}
+
+.lines.ui-tabs .ui-tabs-nav{
+    padding: 0;
+}
+
+.lines.ui-tabs .ui-tabs-nav li{
+    margin: 0;
+    padding: 0;
+}
+
+.lines.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    margin: 0;
+    padding: 0;
+}
+
+.lines.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    padding: 0 15px;
+}
+
+.lines.ui-tabs .ui-tabs-panel{
+    padding: 0;
+}
+
+.lines .tabs a{
+    display: block;
+}
+
+
+
+
+
+
 .banner {
     height: 790px;
 }
@@ -143,15 +186,16 @@ header {
     margin-top: 50px;
 }
 
-.lines p {
+.lines a {
     font-size: 17px;
     line-height: 27px;
     color: #ffffff;
     text-align: center;
     padding-top: 40px;
+    text-decoration: none;
 }
 
-.lines p span {
+.lines a span {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
@@ -1282,20 +1326,21 @@ footer .downline{
 }
 
 .lines .poi {
+    display: block;
     width: 33.33333%;
     float: left;
     height: 130px;
 }
 
-.lines div:last-child {
+.lines li:last-child {
     background-color: #4fceff;
 }
 
-.lines div:nth-child(2) {
+.lines li:nth-child(2) {
     background-color: #af82f6;
 }
 
-.lines div:first-child {
+.lines li:first-child {
     background-color: #677fed;
 }
 
@@ -1425,6 +1470,11 @@ footer .downline{
         margin-left: 341px;
     }
 
+    .lines a{
+        position: relative;
+        left: -32px;
+    }
+
     .cards {
         height: 1400px;
     }
@@ -1517,6 +1567,11 @@ footer .downline{
 
     .lines {
         margin-left: -5px;
+    }
+
+    .lines a{
+        position: relative;
+        left: -63px;
     }
 
     .cards{

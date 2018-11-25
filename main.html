@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/jquery.selectric.js"></script>
     <script type='text/javascript' src='js/ion.rangeSlider.js'></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -53,10 +53,15 @@
             <div>
                 <button><span class="icon-telegram"></span> ПОДКЛЮЧИТЬСЯ</button>
             </div>
-            <div class="lines clear" id="tabs">
-                <div class="poi tabs1"><p>линия <br><span>ПРИБЫЛИ</span></p></div>
-                <div class="poi tabs2"><p>линия <br><span>СТАБИЛЬНОСТИ</span></p></div>
-                <div class="poi tabs3"><p>линия <br><span>БЕСКОНЕЧНОСТИ</span></p></div>
+            <div class="lines" id="tabs">
+                <ul class="tabs">
+                    <li class="poi"><a href="#tabs-1" style="margin-left: 122px;">линия <br><span>ПРИБЫЛИ</span></a></li>
+                    <li class="poi"><a href="#tabs-2">линия <br><span>СТАБИЛЬНОСТИ</span></a></li>
+                    <li class="poi"><a href="#tabs-3">линия <br><span>БЕСКОНЕЧНОСТИ</span></a></li>
+                </ul>
+                <div class="content" id="tabs-1">a</div>
+                <div class="content" id="tabs-2">b</div>
+                <div class="content" id="tabs-3">c</div>
             </div>
         </div>
     </div>
