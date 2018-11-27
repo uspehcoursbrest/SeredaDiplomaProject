@@ -94,4 +94,5 @@ window.onload = function () {
     $('#tabs').tabs({
 
     });
+
 };

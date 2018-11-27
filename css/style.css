@@ -5,7 +5,6 @@
 body {
     margin: 0 auto;
     font-family: "Roboto";
-    background-color: #123456;
 }
 
 body {
@@ -181,6 +180,8 @@ header {
     height: 790px;
 }
 
+
+
 .hotline {
     height: 115px;
     margin-top: 50px;
@@ -196,6 +197,22 @@ header {
 }
 
 .lines a span {
+    font-size: 21px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.line a {
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.line a span {
     font-size: 21px;
     line-height: 27px;
     color: #ffffff;
@@ -1332,6 +1349,10 @@ footer .downline{
     height: 130px;
 }
 
+.line .poi{
+    display: block;
+}
+
 .lines li:last-child {
     background-color: #4fceff;
 }
@@ -1344,15 +1365,15 @@ footer .downline{
     background-color: #677fed;
 }
 
-.line div:last-child {
+.line li:last-child {
     background-color: #4fceff;
 }
 
-.line div:nth-child(2) {
+.line li:nth-child(2) {
     background-color: #af82f6;
 }
 
-.line div:first-child {
+.line li:first-child {
     background-color: #677fed;
 }
 
@@ -1394,6 +1415,44 @@ footer .downline{
     float: left;
 }
 
+.line li.poi a{
+    margin-top: -5px;
+    margin-left: 22px;
+}
+
+
+
+
+.line.ui-tabs{
+    padding: 0;
+}
+
+.line.ui-tabs .ui-tabs-nav{
+    padding: 0;
+}
+
+.line.ui-tabs .ui-tabs-nav li{
+    margin: 0;
+    padding: 0;
+}
+
+.line.ui-tabs .ui-tabs-nav li.ui-tabs-active{
+    margin: 0;
+    padding: 0;
+}
+
+.line.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    padding: 0 15px;
+}
+
+.line.ui-tabs .ui-tabs-panel{
+    padding: 0;
+}
+
+.line .tabs a{
+    display: block;
+}
+
 .qwe {
     margin: 0 -15px;
 }
@@ -1402,6 +1461,13 @@ footer .downline{
     width: 25%;
     float: left;
 }
+
+.multi button{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .bot [class*="card"] .in {
     padding: 0 15px;
