@@ -303,7 +303,6 @@ header {
 }
 
 .test .b1, .b2, .b3, .b4 {
-    background-color: #ffffff;
     padding: 17px;
     height: 80px;
 }
@@ -406,6 +405,7 @@ form option {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 800px;
 
 }
 
@@ -737,7 +737,13 @@ button.down span {
     background-image: url(../img/jpg/foncontent2.jpg);
     height: 800px;
     background-position-y: -289px;
-    background-position-x: -350px;
+    background-position-x: -287px;
+}
+
+.b1, .b2, .b3, .b4{
+    position: relative;
+    left: -453px;
+    top: -85px;
 }
 
 .partner h2 {
